@@ -6,4 +6,7 @@ def cities_dict(cities:list):
     Returns:
         dict: dictionary with keys ordered by city name
     """
-    return
+    answer = {}
+    for i in range(len(cities)):
+        answer[i]=cities[i]
+    return answer
